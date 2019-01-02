@@ -1,0 +1,54 @@
+.keys {
+
+	margin-top: 200px;
+	display: flex;
+	flex-direction: row;	
+
+}
+
+.key {
+	display: flex;
+	flex-direction: column;
+	width: 6rem;
+	height: 6rem;
+	border: 2px solid red;
+	margin-left: 5px;
+	transition: all .07s;
+	background-color: white;
+	border-radius: 5px;
+	text-align: center;
+	align-content: center;
+}
+
+kbd {
+
+	
+}
+
+.beatMachine {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.playing {
+	
+	border: 2.2px solid yellow;
+	transform: scale(1.1);
+}
+
+body {
+	background-image: url('../img/bgrd.jpg');
+	background-repeat: no-repeat;
+	background-size: 1600px 1200px;
+	background-position: center;
+}
+
+.sound {
+	margin-top: 20px;
+}
+
+.title {
+	margin-top: 30px;
+	text-align: center;
+}
